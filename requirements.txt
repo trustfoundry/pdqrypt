@@ -1,0 +1,6 @@
+argparse
+logging
+impacket
+pycryptodome
+regipy
+rich
