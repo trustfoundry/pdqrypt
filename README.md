@@ -4,7 +4,7 @@ PDQrypt is a tool designed to extract credentials from a PDQ Inventory or Deploy
 
 This tool is being released in tandem with our blog post, which highlights a small number of attacks you can perform against PDQ Inventory/Deploy when performing an internal penetration test, and provides background information on the PDQ system itself. It is out hope that this information will help offensive security consultants better understand how to suggest remedial advice when a misconfigured PDQ server is observed. We also hope it highlights the need to treat deployment servers as Tier 0 assets, akin to your Domain Controllers and Certificate Servers. 
 
--- Blog Post -- 
+https://trustfoundry.net/2025/04/10/pentesting-pdq-deploy-and-inventory/  
 
 It is important to note that this is not an exploit or vulnerability in itself, it just reads the victim's encrypted credentials from the database files in PDQ. This requires local administrator credentials over the deployment server, and as such, is generally considered post-exploitation tooling. 
 
